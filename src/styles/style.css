@@ -1,0 +1,13 @@
+body {
+  padding: 50px;
+  font: 14px  Arial, sans-serif;
+  background:red;
+}
+
+a {
+  color: #00B7FF;
+}
+table tr td{
+	
+		border-bottom:1px solid #ccc;
+}

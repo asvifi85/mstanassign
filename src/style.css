@@ -1,0 +1,87 @@
+body {
+  font-family: Arial,sans-serif;
+  background-color: #315481;
+  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+  background-attachment: fixed;
+ 
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ 
+  padding: 0;
+  margin: 0;
+ 
+  font-size: 14px;
+}
+
+a {
+  color: #00B7FF;
+}
+#app{
+	width:90%;
+	margin:90px auto;
+}
+table{
+	color:#000;
+	border:1px solid #fff;
+	background:#fff;
+	position:relative;
+}
+table tr th{
+		
+		border-bottom:1px solid #ababab;
+}
+table tr td{
+		
+		border-bottom:1px solid #e0e0e0;
+}
+.accData{
+	font-weight:bold;
+	color:blue;
+}
+.active{
+	background:#e0e0e0;
+}
+.ascSort,.descSort{
+	display:inline-block;
+	vertical-align: middle;
+    position: absolute;
+	margin-left:7px;
+	color:blue;
+    
+}
+.ascSort{
+	top: 13px;
+}
+.descSort{
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+	top: 5px;
+	
+}
+.loadMore{
+	color:#fff;
+}
+.subtitle{
+	color:#7d7d7d;
+}
+.priceSection .ascSort,.priceSection .descSort{
+		margin-left:-12px;
+}
+.ascSort:after{
+	content: '^'
+}
+.descSort:after{
+	content: '^';
+	
+}
+.negetive{
+	color:red;
+}
+
+.positive{
+	color:green;
+}

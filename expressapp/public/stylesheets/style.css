@@ -1,0 +1,13 @@
+body {
+  padding: 50px;
+  font: 14px  Arial, sans-serif;
+  background:blue;
+}
+
+a {
+  color: #00B7FF;
+}
+td{
+	
+		border-bottom:1px solid #ccc;
+}
